@@ -9,9 +9,13 @@ The update site is http://vaadin.com/eclipse
 
 Vaadin works with all appservers. This application has been built using the apache runtime version 8 (apache-tomcat-8.0.9)
 
-The project is dynamic web project . To launch run as "Run on server". 
+The project is vaadin 7 project (not dynamic web project) . To launch run as "Run on server". 
 
 The  home page for this project is http://localhost:8080/WA/
+
+The landing page should look like wa.png 
+Click on the browse button first to select a file to update. Then click on update.
+The next page should look wa2.png. 
 
 Vaadin is super clever . You dont need a web.xml file. The latest version uses annotations.
 
@@ -21,3 +25,5 @@ The eclipse version used in this app was
 
 Version: Luna Service Release 1 (4.4.1)
 Build id: 20140925-1800
+
+
