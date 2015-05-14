@@ -1,0 +1,9 @@
+@import "addons.scss";
+@import "wa.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in wa.scss */
+.wa {
+  @include addons;
+  @include wa;
+}
